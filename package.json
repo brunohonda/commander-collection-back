@@ -1,7 +1,7 @@
 {
   "name": "commander-collection",
   "version": "1.0.0",
-  "description": "Backend to commander collection applicartion",
+  "description": "Backend to commander collection application",
   "main": "main.js",
   "scripts": {
     "build": "tsc",
