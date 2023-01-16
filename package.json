@@ -12,10 +12,12 @@
   "author": "Bruno Honda <bruno.honda@live.com>",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.1"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.13",
     "@types/mocha": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.32.0",

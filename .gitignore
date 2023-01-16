@@ -1,5 +1,5 @@
-# Dependencies
-/node_modules
+# Environment
+.env
 
 # Test
 /.nyc_output
@@ -7,3 +7,6 @@
 
 # Build
 /dist
+
+# Misc
+/node_modules
