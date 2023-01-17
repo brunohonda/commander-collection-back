@@ -4,9 +4,10 @@
         "project": "./tsconfig.json"
     },
     "rules": {
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/indent": ["error", 2, { "SwitchCase": 1, "ignoredNodes": ["PropertyDefinition"] }],
         "@typescript-eslint/semi": [ "error", "always" ],
         "@typescript-eslint/strict-boolean-expressions": "off",
-        "@typescript-eslint/consistent-type-definitions": "off",
         "template-curly-spacing": [ "error", "always" ]
     }
 }
