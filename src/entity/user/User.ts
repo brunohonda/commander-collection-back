@@ -1,5 +1,5 @@
 import crypto from 'node:crypto';
-import { BeforeInsert, Column, CreateDateColumn, Entity, Index, ObjectID, ObjectIdColumn, UpdateDateColumn, VersionColumn } from 'typeorm';
+import { BeforeInsert, Column, CreateDateColumn, Entity, Index, ObjectID, ObjectIdColumn, UpdateDateColumn } from 'typeorm';
 
 @Entity()
 export class User {

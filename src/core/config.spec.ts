@@ -25,6 +25,7 @@ suite(Config.name, () => {
     const config = new Config();
 
     assert.deepEqual(config, {
+      dbConnectionString: '',
       port: 3000
     });
   });
