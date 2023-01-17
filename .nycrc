@@ -6,7 +6,9 @@
   "include": [
     "src/**/!(*.spec.*)ts"
   ],
-  "exclude": [],
+  "exclude": [
+    "src/main.ts"
+  ],
   "reporter": ["html", "lcov", "text", "text-summary"],
   "report-dir": "coverage"
 }
