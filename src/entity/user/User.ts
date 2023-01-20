@@ -21,9 +21,12 @@ export class User {
   @UpdateDateColumn()
   updatedAt!: Date;
 
+  constructor () {
+    this.salt = crypto.randomBytes(256).toString('hex');
+  }
+
   @BeforeInsert()
   hashPassword (): void {
-    this.salt = crypto.randomBytes(256).toString('hex');
     this.password = crypto.createHmac('sha256', this.salt)
       .update(`${ this.password }${ this.salt }`)
       .digest('hex');
